@@ -40,7 +40,7 @@ export default function Home() {
               From $999 or $83.25/mo. for 12 mo.*
             </p>
 
-            <StaggeredItems>
+            <StaggeredItems startDelay={300}>
               {[
                 <div key="links" className="flex justify-center gap-6 mb-8">
                   <a href="#" className="text-[#0066cc] text-[21px] hover:underline">Learn more</a>
@@ -83,7 +83,7 @@ export default function Home() {
               From $1,599 or $133.25/mo. for 12 mo.*
             </p>
 
-            <StaggeredItems>
+            <StaggeredItems startDelay={300}>
               {[
                 <div key="links" className="flex justify-center gap-6 mb-8">
                   <a href="#" className="text-[#0066cc] text-[21px] hover:underline">Learn more</a>
@@ -126,7 +126,7 @@ export default function Home() {
               From $1,299 or $108.25/mo. for 12 mo.*
             </p>
 
-            <StaggeredItems>
+            <StaggeredItems startDelay={300}>
               {[
                 <div key="links" className="flex justify-center gap-6 mb-8">
                   <a href="#" className="text-[#0066cc] text-[21px] hover:underline">Learn more</a>
@@ -169,7 +169,7 @@ export default function Home() {
               From $599 or $49.91/mo. for 12 mo.*
             </p>
 
-            <StaggeredItems>
+            <StaggeredItems startDelay={300}>
               {[
                 <div key="links" className="flex justify-center gap-6 mb-8">
                   <a href="#" className="text-[#0066cc] text-[21px] hover:underline">Learn more</a>
@@ -212,7 +212,7 @@ export default function Home() {
               From $1,999 or $166.58/mo. for 12 mo.*
             </p>
 
-            <StaggeredItems>
+            <StaggeredItems startDelay={300}>
               {[
                 <div key="links" className="flex justify-center gap-6 mb-8">
                   <a href="#" className="text-[#0066cc] text-[21px] hover:underline">Learn more</a>
@@ -255,7 +255,7 @@ export default function Home() {
               From $6,999 or $583.25/mo. for 12 mo.*
             </p>
 
-            <StaggeredItems>
+            <StaggeredItems startDelay={300}>
               {[
                 <div key="links" className="flex justify-center gap-6 mb-8">
                   <a href="#" className="text-[#0066cc] text-[21px] hover:underline">Learn more</a>
